@@ -1,0 +1,1 @@
+import exercice1 from './exercice1/questions';
