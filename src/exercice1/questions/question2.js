@@ -1,6 +1,6 @@
 import data from '../data/ilots';
 
-console.log('exercice 2 data:', data);
+console.log('exercice - 1 quest 2 data:', data);
 
 /**
  * Le nombre total d'ilot non payant.

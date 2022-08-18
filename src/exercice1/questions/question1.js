@@ -1,6 +1,6 @@
 import data from '../data/ilots';
 
-console.log('exercice 1 data:', data);
+console.log('exercice 1 - quest 1 data:', data);
 
 /**
  * Le nombre total des ilots disponible.

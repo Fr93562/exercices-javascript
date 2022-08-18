@@ -1,6 +1,6 @@
 import data from '../data/ilots';
 
-console.log('exercice 5 data:', data);
+console.log('exercice 1 - quest 5 data:', data);
 
 /**
  * Le nombre d'ilot qui sont ouverts tout les jours de la semaine.

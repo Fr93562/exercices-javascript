@@ -1,6 +1,6 @@
 import data from '../data/ilots';
 
-console.log('exercice 3 data:', data);
+console.log('exercice 1 - quest 3 data:', data);
 
 /**
  * Le pourcentage d'ilot payant parmi la totalité des ilots disponibles.
