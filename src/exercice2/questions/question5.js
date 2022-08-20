@@ -15,3 +15,12 @@ console.log('exercice 2 quest - 5 data:', data);
 /**
  * Insère ton code en dessous
  */
+
+ let nombreSiteWifi = 0
+ for (let i = 0; i < data.length; i++) {
+     if (data[i].fields.etat2 !== "Op\u00e9rationnel") {
+         nombreSiteWifi++;
+     }
+     
+ }
+ console.log(nombreSiteWifi)

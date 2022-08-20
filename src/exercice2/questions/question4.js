@@ -15,3 +15,12 @@ console.log('exercice 2 - quest 4 data:', data);
 /**
  * Insère ton code en dessous
  */
+
+ let nombreSiteWifi = 0
+ for (let i = 0; i < data.length; i++) {
+     if (data[i].fields.nombre_de_borne_wifi > 25 && data[i].fields.nom_site) {
+         nombreSiteWifi++;
+     }
+     
+ }
+ console.log(nombreSiteWifi)

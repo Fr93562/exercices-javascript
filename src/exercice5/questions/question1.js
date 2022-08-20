@@ -19,3 +19,15 @@ console.log('exercice 4 -quest 1 data:', data);
 /**
  * Insère ton code en dessous
  */
+
+function articleQuantité (data) {
+    let plusGrand = data[0];
+    for (let i = 0; i < data.length -1; i++) {
+        let valeur = data[i]
+        if (data[i] > plusGrand ) {
+            plusGrand = valeur;
+        }
+    }
+    console.log(plusGrand);
+}
+articleQuantité(data);

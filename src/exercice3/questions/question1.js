@@ -14,3 +14,12 @@ console.log('exercice 3 -quest 1 data:', data);
 /**
  * Insère ton code en dessous
  */
+let number = 0;
+
+for (let i = 0; i < data.length; i++) {
+    if(data[i].fields.fonctionnelle === "Oui") {
+        number++;
+    }
+    
+};
+console.log(number);

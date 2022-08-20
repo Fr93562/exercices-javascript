@@ -15,3 +15,12 @@ console.log('exercice 2 - quest 2 data:', data);
 /**
  * Insère ton code en dessous
  */
+ let nombreSiteWifi = 0
+
+ for (let i = 0; i < data.length; i++) {
+     if (data[i].fields.cp === '75001') {
+         nombreSiteWifi++;
+     }
+     
+ }
+ console.log(nombreSiteWifi)

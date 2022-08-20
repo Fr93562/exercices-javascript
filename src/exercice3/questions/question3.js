@@ -12,5 +12,19 @@ console.log('exercice 3 - quest 3 data:', data);
  */
 
 /**
- * Insère ton code en dessous
+ * les stations du 75015
+ */
+
+let number = 0;
+
+for (let i = 0; i < data.length; i++) {
+    if (data[i].fields.code_post === "75015") {
+        number++
+    }
+    
+}
+console.log(number);
+
+/**
+ * l'opérateur qui possède le plus de stations?
  */
