@@ -23,3 +23,11 @@ for (let i = 0; i < data.length; i++) {
     
 };
 console.log(number);
+
+ /**
+ * @correction
+ * @Correct
+ * Pas besoin que je mette une correction pour celui-ci.
+ * Attention car parfois, les données de certaines API peuvent être mal remplies. Tu pourras avoir à la fois des oui et Oui.
+ * Dans ces cas là, il faut formater avant de comparer. Sinon, tu prends des risques.
+ */

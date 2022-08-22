@@ -23,3 +23,14 @@ for (let i = 0; i < data.length; i++) {
     
 }
 console.log(number);
+
+ /**
+ * @correction
+ * @Incorrect 
+ * As-tu consulté les données? Il existe bien un commerçant qui n'a ni mail ni téléphone
+ * Au niveau des API, il peut arriver que quand un champs n'est pas rempli et laissé vide.
+ * Alors le paramètre n'est pas envoyé et est absent de l'objet. Au lieu d'avoir un string vide
+ */
+
+ let correction = data.filter(item => !item.fields.mail && !item.fields.telephone);
+ console.warn('ex 4 - quest 2', correction);

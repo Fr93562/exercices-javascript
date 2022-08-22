@@ -24,3 +24,9 @@ console.log('exercice 2 quest - 5 data:', data);
      
  }
  console.log(nombreSiteWifi)
+
+ /**
+ * @correction
+ * @Correct
+ * Pas besoin que je mette une correction pour celui-ci.
+ */

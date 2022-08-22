@@ -31,3 +31,32 @@ function articleQuantité (data) {
     console.log(plusGrand);
 }
 articleQuantité(data);
+
+ /**
+ * @correction
+ * @Incorrect 
+ *
+ * Tu compares de manière à peu près correct un item par rapport à un autre.
+ * Mais tu compares pas les chiffres. Tu compares les string entre eux.
+ * Et en javascript, trier les strings. Cela revient à comparer la longueur du string
+ * 
+ * La première étape aurait était de créer un nouveau tableau et transformer l'objet au passage
+ * Afin de le rendre plus facilement utilisable
+ */
+
+ let array = [];
+
+ for (let i = 0; i < data.length; i++) {
+    const decomposedItem = data[i].split(' ');
+    const item = {
+        quantity: parseInt( decomposedItem[0], 10),
+        article: decomposedItem[1],
+    };
+    
+    array.push(item);
+ }
+
+ const sort = array.sort((firstItem, secondItem) => {return firstItem.quantity - secondItem.quantity});
+ const correction = sort[sort.length - 1];
+  console.warn('ex 5 - quest 1', correction.article);
+ 

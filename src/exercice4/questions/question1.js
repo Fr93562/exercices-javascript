@@ -19,3 +19,8 @@ for (let i = 0; i < data.length; i++) {
 };
 console.log(number);
 
+ /**
+ * @correction
+ * @Correct 
+ * Pas besoin de correction, aucun commerçant corresponds à ces deux champs croisés
+ */

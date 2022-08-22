@@ -24,3 +24,13 @@ console.log('exercice 2 - quest 2 data:', data);
      
  }
  console.log(nombreSiteWifi)
+
+ /**
+ * @correction
+ * Correct, il existe une fonction un peu plus optimisée.
+ * Javascript propose des solutions avancées pour ce type de cas
+ * @url : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+ */
+
+ let correction = data.filter(item => item.fields.cp === '75001');
+ console.warn('ex 2 - quest 2', correction.length);

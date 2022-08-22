@@ -28,3 +28,9 @@ console.log(number);
 /**
  * l'opérateur qui possède le plus de stations?
  */
+
+ /**
+ * @correction
+ * @Incorrect
+ * Si tu regardes bien, fields contient un champs appelé opérateur qui corresponds à l'entreprise qui gère le site.
+ */
